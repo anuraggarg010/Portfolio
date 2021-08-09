@@ -448,3 +448,11 @@ h6 {
         margin-right: auto;
     }
 }
+
+@media (min-width:400px) and (max-width:736px){
+    #social_img{
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
