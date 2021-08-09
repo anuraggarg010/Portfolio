@@ -252,7 +252,8 @@ h4 {
     padding-left: 10rem;
     width: 50%;
     animation: spin 2s linear ;
-  
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 
 @keyframes spin {
@@ -398,8 +399,14 @@ h6 {
 
     .right-column {
         justify-content: center;
+        padding-right: 30px;
     }
+
+#social_img{
+    padding-right: 30px;
 }
+}
+
 
 @media screen and (max-width: 400px) {
     #social_img {
@@ -432,5 +439,12 @@ h6 {
         color: white;
         
         height: 25px;width: 25px;
+    }
+}
+@media (min-width:800px) and (max-width:1000px){
+    #social_img{
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
